@@ -1,0 +1,83 @@
+.login-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    height: 600px;
+    width: 60%;
+    background-color: #eee;
+    box-shadow: 5px 5px 10px #eee;
+    display: flex;
+}
+
+.login-boxes {
+    height: 600px;
+    width: 50%;
+    padding: 35px;
+    /* background-color:red */
+
+}
+
+.login-left {
+    background-image: url("../../assets/invoice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-heading {
+    font-size: 25px;
+    /* text-align: center; */
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.login-btn {
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+}
+
+.login-btn:hover {
+    background-color: hotpink;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.register-link {
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.image-preview {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+    width: 100%; /* Ensure it scales responsively */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Keep aspect ratio intact */
+    border: 1px solid #ccc; /* Optional: border for a clean look */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 5px; /* Optional: add padding between the border and the image */
+    margin-top: 10px; /* Optional: space above the preview */
+  }
+  
