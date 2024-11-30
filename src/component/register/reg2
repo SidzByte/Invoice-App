@@ -55,7 +55,7 @@ const Register = () => {
       formData.append("upload_preset", "invoice-preset");
 
       // Send the image to Cloudinary
-      const response = await axios.post(`https://api.cloudinary.com/v1_1/dtfr8jlef/image/upload`, formData);
+      const response = await axios.post(`api`, formData);
       const downloadURL = response.data.secure_url;
 
       // Update the user profile in Firebase Auth
